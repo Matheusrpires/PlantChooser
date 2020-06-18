@@ -1,0 +1,17 @@
+.container {
+  text-align: center;
+  width: 46%;
+  margin: 0% auto;
+  background: #15573F;
+  border: 1px solid #15573F;
+  padding: 4%;
+  border-radius: 25px;
+}
+
+.container__button {
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  padding: 12% 38%;
+}
+

@@ -1,0 +1,11 @@
+.title__container {
+  margin: 0 auto;
+  width: 63.5%;
+  text-align: center;
+}
+
+.title__container > h2 {
+  color: #6e6e6e;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}

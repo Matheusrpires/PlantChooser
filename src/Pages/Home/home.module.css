@@ -1,0 +1,29 @@
+.container {
+  margin: 8% auto;
+  text-align: center;
+  width: 70%;
+}
+
+.container__button {
+  padding: 5% 15%;
+  background: #15573F;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none; 
+}
+
+.container > h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #15573F;
+  font-weight: bold;
+  margin-bottom: 20%;
+}
+
+.container__picture {
+  width: 100%;
+}
+
+.container__picture > img {
+  max-width: 100%;
+}
+

@@ -1,0 +1,14 @@
+.illustration__container {
+  width: 25%;
+  text-align: center;
+  margin: auto;
+}
+
+.illustration__container > img {
+  max-width: 100%;
+  margin: 5% auto;
+}
+
+.illustration__change {
+  width: 40% !important;
+}

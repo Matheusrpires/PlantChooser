@@ -1,0 +1,67 @@
+.card__container {
+  margin: 0 auto;
+  width: fit-content;
+  background: white;
+}
+
+.card__details {
+  margin: 0 10%;
+}
+
+.card__details > p {
+  color: #15573F;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.card__price {
+  display: flex;
+  justify-content: space-between;
+  margin: 6% 0 0 0;
+}
+
+.card__price > p {
+  color: #6e6e6e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  flex-grow: 1;
+}
+
+.card__imgcontainer {
+  display: flex;
+}
+
+.card__price > img {
+  width: 15%;
+  height: 15%;
+  padding: 0 2%;
+  flex-grow: 0;
+
+}
+
+.card__status {
+  /* width: 100%; */
+  /* width: fit-content; */
+  display: flex;
+}
+
+
+
+.container {
+  text-align: center;
+  width: 100%;
+  margin: 0% auto;
+  background: #15573F;
+  border: 1px solid #15573F;
+  padding: 6%;
+  border-radius: 25px;
+}
+
+.container__button {
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  padding: 12% 38%;
+}
+

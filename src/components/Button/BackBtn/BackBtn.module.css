@@ -1,0 +1,16 @@
+.container {
+  text-align: center;
+  width: 46%;
+  margin: 0% auto;
+  padding: 4%;
+  background: #f6f6f6;
+  border-radius: 25px;
+  border: 1px solid #15573F;
+}
+
+.container__button {
+  color: #15573F;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+

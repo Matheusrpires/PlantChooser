@@ -1,0 +1,9 @@
+.header__container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.header__container > img {
+  max-width: 100%;
+  margin: 12% auto 10% auto;
+}
