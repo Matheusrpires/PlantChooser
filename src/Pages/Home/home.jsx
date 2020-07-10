@@ -1,27 +1,30 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import styles from './home.module.css';
-import backmobile from '../../assets/illustrations/illustration-home-mobile.png'
+import Header from "../../components/Header/header";
+
+import styles from "./home.module.css";
+import backmobile from "../../assets/illustrations/illustration-home-mobile.png";
 
 const Home = () => {
-
   return (
-    <React.Fragment>
-      <div className={styles.container}>
-        <h1>Find your next green friend</h1>
+    <div className={styles.container}>
+      <Header />
+      <section className={styles.container__section}>
+        <div className={styles.container__}>
+          <h1>Find your next green friend</h1>
 
-        <Link to={'/Sun'} className={styles.container__button}>
-          
-          Start quizz
+          <Link to={"/Sun"} className={styles.container__button}>
+            Start quizz
           </Link>
-      </div>
+        </div>
 
-      <div className={styles.container__picture}>
-        <img src={backmobile} />
-      </div>
-    </React.Fragment>
-  )
-}
+          <img src={backmobile} />
+        <div className={styles.container__picture}>
+        </div>
+      </section>
+    </div>
+  );
+};
 
 export default Home;

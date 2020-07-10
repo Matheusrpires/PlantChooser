@@ -15,3 +15,16 @@
   padding: 12% 38%;
 }
 
+@media (min-width: 1024px) {
+  .container {
+    width: 100%;
+    margin: 0% auto;
+    padding: 8% 0;
+    border-radius: 40px;
+  }
+
+  .container__button {
+    padding: 0;
+    width: 15%;
+  }
+}

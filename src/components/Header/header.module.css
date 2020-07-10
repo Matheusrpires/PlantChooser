@@ -1,9 +1,32 @@
 .header__container {
-  width: 50%;
-  margin: 0 auto;
+  /* width: 50%;
+  margin: 0 auto; */
+  text-align: center;
+  background-color: #f6f6f6;
 }
 
 .header__container > img {
-  max-width: 100%;
-  margin: 12% auto 10% auto;
+  /* max-width: 100%;
+  margin: 12% auto 10% auto; */
+  max-width: 80%;
+  margin: 2% auto 2% auto;
 }
+
+.white {
+  background-color: white;
+}
+
+
+@media (min-width: 1025px) {
+  .header__container {
+    padding-left: 17%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1440px) {
+  .header__container {
+    padding-left: 6%;
+  }
+}
+

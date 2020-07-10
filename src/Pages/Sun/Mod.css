@@ -1,0 +1,18 @@
+.container__module {
+  height: 100%;
+  background-color: #f6f6f6;
+}
+
+@media (min-width: 1024px) {
+  .container__button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container__nextback {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    flex-flow: row-reverse;
+  }
+}

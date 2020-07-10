@@ -1,0 +1,114 @@
+.container {
+  height: 100%;
+  background-color: white;
+}
+
+.container__data {
+  text-align: center;
+}
+
+.picked__container {
+  margin: 4% 7%;
+  width: 77.5%;
+  text-align: justify;
+}
+
+.picked__title {
+  color: #15573F;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.picked__price {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 27px;
+  color: grey;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.picked__img {
+  text-align: center;
+}
+
+.imgteste {
+  width: 20rem;
+}
+
+.itens_container {
+  margin: 4% 7%;
+  display: flex;
+  align-items: center;
+}
+
+.itens_container > img {
+  width: 8%;
+  margin-right: 5%;
+}
+
+.itens_container > a {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  font-weight: 400;
+}
+
+.email__container {
+  margin-top: 10%;
+  background-color: #f6f6f6;
+  padding: 4% 7%;
+}
+
+.email__container > div {
+  margin: 0 !important;
+}
+
+.email__sub {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: grey;
+  width: 100%;
+  margin: 8% 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+}
+
+form > label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: grey;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+form > input {
+  width: 90%;
+  border-radius: 25px;
+  border: none;
+  padding: 4%;
+  font-size: 15px;
+  color: grey;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.container__button {
+  padding: 4% 14%;
+  background: #15573F;
+  border-radius: 25px;
+  width: 80%;
+  color: white;
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+  margin: 7% auto 2% auto;
+}
+
+.send__container {
+  text-align: center;
+}

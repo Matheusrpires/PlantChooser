@@ -14,3 +14,16 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+@media (min-width: 1024px) {
+  .container {
+    width: 100%;
+    padding: 8% 0;
+    border-radius: 40px;
+  }
+
+  .container__button {
+    padding: 0;
+    width: 15%;
+  }
+  
+}

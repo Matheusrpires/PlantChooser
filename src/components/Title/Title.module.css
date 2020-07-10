@@ -9,3 +9,13 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
+
+@media (min-width: 1024px) {
+  .title__container {
+    width: 52.5%;
+  }
+
+  .title__container > h2 {
+    font-size: 2rem;
+  }
+}
