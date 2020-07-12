@@ -16,12 +16,21 @@
   background-color: white;
 }
 
-
 @media (min-width: 1025px) {
   .header__container {
     padding-left: 17%;
     text-align: left;
   }
+
+  .header__container > img {
+    transform: rotateZ(270deg);
+  }
+/* 
+  .header__container {
+    padding-top: 20%;
+    width: 20%;
+    padding-left: 0;
+  } */
 }
 
 @media (min-width: 1440px) {
@@ -29,4 +38,3 @@
     padding-left: 6%;
   }
 }
-

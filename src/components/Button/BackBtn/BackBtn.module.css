@@ -9,9 +9,9 @@
 }
 
 .container__button {
-  color: #15573F;
+  color: #15573f;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media (min-width: 1024px) {
@@ -25,5 +25,4 @@
     padding: 0;
     width: 15%;
   }
-  
 }

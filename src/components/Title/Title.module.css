@@ -8,6 +8,7 @@
   color: #6e6e6e;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  font-size: min(21px, 5vw);
 }
 
 @media (min-width: 1024px) {

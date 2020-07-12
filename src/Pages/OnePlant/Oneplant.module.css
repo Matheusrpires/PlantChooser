@@ -14,14 +14,14 @@
 }
 
 .picked__title {
-  color: #15573F;
-  font-family: 'Montserrat', sans-serif;
+  color: #15573f;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 36px;
 }
 
 .picked__price {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 27px;
   color: grey;
   font-weight: 500;
@@ -49,7 +49,7 @@
 
 .itens_container > a {
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: grey;
   font-weight: 400;
 }
@@ -65,7 +65,7 @@
 }
 
 .email__sub {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   color: grey;
   width: 100%;
@@ -79,7 +79,7 @@ form {
 }
 
 form > label {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: grey;
   font-weight: bold;
@@ -99,7 +99,7 @@ form > input {
 
 .container__button {
   padding: 4% 14%;
-  background: #15573F;
+  background: #15573f;
   border-radius: 25px;
   width: 80%;
   color: white;
@@ -111,4 +111,54 @@ form > input {
 
 .send__container {
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .container__button {
+    padding: 3% 14%;
+    border-radius: 35px;
+    width: 60%;
+    font-size: 20px;
+  }
+
+  .container__data {
+    width: 80%;
+    margin: 0 5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  form {
+    margin-top: 5%;
+  }
+  
+  form > label {
+    font-size: 23px;
+    margin-bottom: 2%;
+    margin-top: 3%;
+  }
+
+  form > input {
+    border-radius: 51px;
+    font-size: 21px;
+  }
+
+  .email__sub {
+    margin: 6% 0 3% 0;
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    display: flex;
+  }
+
+  .temporary {
+    display: none;
+  }
+
+  .container__conteudo {
+    display: flex;
+  }
 }

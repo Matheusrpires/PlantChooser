@@ -4,14 +4,13 @@
   /* background: white; */
 }
 
-
 .card__details {
   /* margin: 0 10%; */
 }
 
 .card__details > p {
-  color: #15573F;
-  font-family: 'Montserrat', sans-serif;
+  color: #15573f;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 19px;
 }
@@ -24,11 +23,10 @@
 
 .card__price > p {
   color: #6e6e6e;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 19px;
   flex-grow: 1;
 }
-
 
 .card__imgcontainer {
   display: flex;
@@ -39,35 +37,30 @@
   height: 15%;
   padding: 0 2%;
   flex-grow: 0;
-
 }
 
 /* .card__status { */
-  /* width: 100%; */
-  /* width: fit-content; */
-  /* display: flex; */
+/* width: 100%; */
+/* width: fit-content; */
+/* display: flex; */
 /* } */
-
-
 
 .container {
   text-align: center;
   width: 100%;
   margin: 0% auto;
-  background: #15573F;
-  border: 1px solid #15573F;
+  background: #15573f;
+  border: 1px solid #15573f;
   padding: 6%;
   border-radius: 25px;
+  margin: 5% 0;
 }
 
 .container__button {
   color: white;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  padding: 12% 38%;
+  font-family: "Montserrat", sans-serif;
 }
-
-
 
 .categoriesContainer {
   /* position: absolute; */
@@ -110,3 +103,34 @@
   display: inline-block;
   width: 100%;
 } */
+
+@media (min-width: 1024px) {
+  .categoriesContainer {
+    all: initial;
+    max-width: 1200px;
+    margin: 0 auto 1% auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-gap: 1rem;
+  }
+
+  .categoriesContainer_categorie {
+    width: 82%;
+  }
+
+  .categoriesContainer > div {
+  }
+
+  .container {
+    background: white;
+    color: #15573f;
+    font-weight: 500;
+    font-weight: bold;
+  }
+
+  .container:hover {
+    background: #15573f;
+    color: white;
+  }
+}

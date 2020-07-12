@@ -1,22 +1,21 @@
 .button__container {
   margin: 7% auto;
-  width: 80%;
   background-color: white;
   display: flex;
   align-items: center;
-  padding: 0 5%;
   border-radius: 3px;
+  padding: 6% 4% 6% 4%;
 }
 
 .button__container > a {
-  padding: 12% 15%;
   color: #6e6e6e;
   font-family: "Montserrat", sans-serif;
-  font-size: 19px;
+  font-size: min(21px, 4vw);
 }
 
 .button__container > img {
-  width: 20%;
+  width: 14%;
+  margin-right: 8%;
 }
 
 .selected {
@@ -44,4 +43,9 @@
   .button__container > a {
     padding: 12% 10%;
   }
+
+  
+.button__container > img {
+  width: 18%;
+}
 }
