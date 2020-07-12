@@ -131,7 +131,7 @@ form > input {
   form {
     margin-top: 5%;
   }
-  
+
   form > label {
     font-size: 23px;
     margin-bottom: 2%;
@@ -140,7 +140,7 @@ form > input {
 
   form > input {
     border-radius: 51px;
-    font-size: 21px;
+    font-size: 19px;
   }
 
   .email__sub {
@@ -158,7 +158,56 @@ form > input {
     display: none;
   }
 
+  .container__data {
+    margin: 20% 10% 20% 0;
+    width: 65%;
+    text-align: initial;
+  }
+
   .container__conteudo {
     display: flex;
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  .email__container {
+    margin: 20% 0 20% 0;
+    /* padding: 3% 4% 6% 4%; */
+    /* width: 30%; */
+  }
+
+  .picked__container {
+    width: 90%;
+  }
+
+  .email__sub {
+    margin: 6% 0 13% 0;
+    font-size: 18px;
+  }
+
+  form > label {
+    font-size: 16px;
+    margin-bottom: 2%;
+    margin-top: 3%;
+  }
+  
+  form > input {
+    font-size: 17px;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .imgteste {
+    width: 17rem;
+  }
+
+  .container__button {
+    align-self: flex-end;
+    margin: 8% 0 0 0 ;
+    border: 1px solid #15573f;
+    color: #15573f;
+    background: white;
+    padding: 5.5% 10%;
+    width: 52%;
   }
 }
